@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie selector</title>
+    <script defer src="movies.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="radio-buttons">
+        <div>
+            <input type="radio" id="latest" name="filter" value="latest">
+            <label for="latest">Latest movies, 2014 or later</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="avenger" name="filter" value="avenger">
+            <label for="avenger">Avenger movies</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="x-men" name="filter" value="x-men">
+            <label for="x-men">X-Men movies</label>
+        </div>
+
+        <div>
+            <input type="radio" id="princess" name="filter" value="princess">
+            <label for="princess">Princess movies</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="batman" name="filter" value="batman">
+            <label for="batman">Batman movies</label>
+        </div>
+
+        <div>
+            <input type="radio" id="undo" name="filter" value="undo">
+            <label for="undo">Undo selection</label>
+        </div>
+    </nav>
+
+    <main>
+        <ul id="movie-posters">
+
+        </ul>
+    </main>
+
+</body>
+
+</html>
