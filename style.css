@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+
+h1,
+.radio-buttons {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 444px;
+  width: 300px;
+}
+
+img:hover {
+  opacity: 60%;
+}
+
+h1,
+label {
+  color: white;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main ul li {
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .radio-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
